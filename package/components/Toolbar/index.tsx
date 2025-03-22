@@ -17,11 +17,11 @@ type ToolBarPropsType = {
 };
 
 const ToolsMap: { icon: ReactNode; name: ToolUnion }[] = [
-  { icon: <IconPencil />, name: "ペイント" },
-  { icon: <IconWords />, name: "文字" },
-  { icon: <IconCut />, name: "切り取り" },
-  { icon: <IconBlur />, name: "ぼかし" },
-  { icon: <IconRecall />, name: "取り消し" },
+  { icon: <IconPencil />, name: "Pencil" },
+  { icon: <IconWords />, name: "Words" },
+  { icon: <IconCut />, name: "Cut" },
+  { icon: <IconBlur />, name: "Blur" },
+  { icon: <IconRecall />, name: "Recall" },
 ];
 
 const ToolContainer = styled.div`
